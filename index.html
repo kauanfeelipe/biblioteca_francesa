@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/pg1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque des Développeurs</title>   
+</head>
+<body>
+    <h1>Bibliothèque des Développeurs</h1>
+    <div class="login-container">
+        <form id="login-form">
+            <label class="euu" for="user-type">Sélectionnez votre profil:</label>
+            <select id="user-type">
+                <option value="aluno">Étudiant</option>
+                <option value="professor">Professeur</option>
+                <option value="funcionario">Employé</option>
+                <option value="admin">Administrateur</option>
+            </select>
+        </form>
+
+        <div id="bloco">
+            <label for="nome">Nom</label>
+            <input type="text" name="nome" placeholder="Digite seu Nome">
+
+            <label for="rgm">RGM</label>
+            <input type="text" name="rgm" placeholder="Digite seu RGM">
+
+            <label for="email">E-mail</label>
+            <input type="text" name="email" placeholder="Digite seu Email">
+
+            <label for="senha">Mot de passe</label>
+            <input type="password" name="senha" placeholder="Digite Sua Senha">
+
+            <label for="tel">Téléphone</label>
+            <input type="text" name="tel" placeholder="Digite um telefone">
+
+
+            <input class="botao" type="button" value="Pour entrer" onclick="login()">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

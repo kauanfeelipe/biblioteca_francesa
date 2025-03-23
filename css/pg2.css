@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/eles.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    padding: 20px;
+}
+.eles {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 6rem; 
+    color: #faf5f5;
+    background: linear-gradient(90deg, #007bff, #ff0000);
+    margin: 1rem 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-align: center;
+  }
+  .eles:hover {
+    transform: scale(1.05) rotate(-1deg); 
+    color: #fafbfc;
+  }
+  h1 {
+  text-align: center;
+  font-size: 70px; 
+  font-weight: bold;
+  background: linear-gradient(to right, #0055A4, #0c0c0c, #EF4135); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+  text-shadow: 
+      0 0 15px rgba(0, 0, 0, 0.9),  
+      0 0 30px rgba(0, 0, 0, 0.7),  
+      0 0 40px rgba(8, 8, 8, 0.5), 
+      0 0 50px rgba(10, 10, 10, 0.4); 
+
+  font-family: 'Lobster', cursive; 
+  letter-spacing: 2px; 
+  padding: 10px; 
+  border-radius: 5px; 
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    background-color: #dcdcdc; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%; 
+    transition: transform 0.3s ease;
+}
+
+.book:hover {
+    transform: scale(1.05);
+}
+
+.book button {
+    background: linear-gradient(135deg, #0055A0, #FFFFFF, #EF4135); 
+    border: none;           
+    color: white;          
+    padding: 40px 60px;     
+    border-radius: 5px;     
+    cursor: pointer;        
+    font-size: 1.5rem; /* Aumentando o tamanho da letra */
+    font-weight: bold; /* Negrito */
+    color: #333333; /* Preto fosco */
+    transition: background 0.3s ease; 
+    align-self: center; 
+    margin-top: auto;
+}
+
+.book button:hover {
+    background: linear-gradient(135deg, #EF4135, #0055A0, #FFFFFF); 
+}
+.book img {
+    width: 100%;            
+    height: 200px;         
+    object-fit: contain;    
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.book h2 {
+    font-size: 1.8rem;         
+    color: #000000;          
+    font-style: italic;        
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 10px;
+}
+.book p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;       
+    margin: 0;             
+}
+.disponibilidade-container {
+    display: none; 
+    background-color: #EEE5FF; 
+    color: #6A0DAD;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+.disponibilidade-container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #0055A0, #EF4135); 
+    color: transparent; 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    animation: pulse 1.5s infinite; 
+    display: inline-block; 
+}
+.disponibilidade-container p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px; 
+    border: 2px solid #6A0DAD; 
+    border-radius: 10px; 
+    background: rgba(255, 255, 255, 0.8); 
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+.reserva {
+    background: linear-gradient(135deg, #0055A0, #FFFFFF, #EF4135); 
+    border: none;            
+    color: #333333; /* Preto fosco */
+    padding: 10px 20px;     
+    border-radius: 5px;    
+    cursor: pointer;        
+    font-size: 1.5rem; /* Aumentando o tamanho da letra */
+    font-weight: bold; /* Negrito */
+    transition: background 0.3s ease; 
+}
+
+.reserva:hover {
+    background: linear-gradient(135deg, #EF4135, #0055A0, #FFFFFF); 
+}
+.para {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px; 
+    color: #0D0D0D; 
+    text-align: justify;
+    font-weight: 500;
+    letter-spacing: 1.5px; 
+    line-height: 1.8;
+    padding: 15px;
+    background: transparent; 
+    border-radius: 8px;
+    box-shadow: none; 
+    transition: all 0.3s ease-in-out;
+  }
+  .para:hover {
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.6); 
+    transform: scale(1.03); 
+  }
+  .letrinha {
+    font-weight: bold; /* Negrito */
+    font-size: 1.5rem; /* Letra um pouco grande */
+    color: #333333; /* Preto fosco */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+  }

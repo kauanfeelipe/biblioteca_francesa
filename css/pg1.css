@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/fundo2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 6rem; 
+  color: #faf5f5;
+  background: linear-gradient(90deg, #007bff, #ff0000);
+  margin: 1rem 0;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-align: center;
+}
+h1:hover {
+  transform: scale(1.05) rotate(-1deg); 
+  color: #fafbfc;
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 700px; 
+    transition: transform 0.3s ease-in-out;
+    margin: 0 auto; 
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+.login-container:hover {
+    transform: translateY(-50%) scale(1.05); 
+}
+input, select {
+    margin: 15px 0;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+input:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+button, .botao {
+    padding: 12px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+button:hover, .botao:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+#bloco {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+#bloco:hover {
+    background-color: #eef2f7;
+}
+#bloco label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+#bloco input[type="text"], #bloco input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#bloco input[type="text"]:focus, #bloco input[type="password"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.footer {
+    margin-top: 25px;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+}
+.euu {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+    letter-spacing: 1px; 
+    text-transform: uppercase; 
+    background: linear-gradient(90deg, #007bff, #ff0000); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(0, 123, 255, 0.6); 
+    transition: all 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);}}
