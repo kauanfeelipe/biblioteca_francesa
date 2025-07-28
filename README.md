@@ -45,7 +45,8 @@ Criar uma interface web funcional e estilizada que simula o ambiente de uma bibl
 
 ---
 
-![Uploading 425851846-ca0626ce-de12-4cb5-9ae9-668e0b410f24.png…]()
+<img width="1876" height="950" alt="425851846-ca0626ce-de12-4cb5-9ae9-668e0b410f24" src="https://github.com/user-attachments/assets/b526f455-b7d8-46fd-8a3d-95a56dd539f3" />
+
 
 
 ## 🚀 Como Rodar o Projeto
