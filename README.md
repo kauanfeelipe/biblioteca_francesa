@@ -53,7 +53,7 @@ Criar uma interface web funcional e estilizada que simula o ambiente de uma bibl
 
 1. Clone este repositório:
 
-git clone https://github.com/seu-usuario/bibliotheque.git
+git clone https://github.com/kauanfeelipe/biblioteca_francesa.git
 
 Abra o index.html em um navegador.
 
